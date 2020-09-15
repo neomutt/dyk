@@ -1,0 +1,15 @@
+<h1><a {% if page.url == '/' %} class="current" {% endif %} href="/">Home</a></h1>
+
+{% assign dirs = '/ /dyk' | split:" " %}
+{% assign u2 = page.url | slice: 0, 5 %}
+
+{% for item in dirs %}
+  {% if item == page.url or u2 == '/dyk/' %}
+    <ul>
+      {% include list-bold.html lb_path='/dyk'       lb_title='Did You Know?' %}
+    </ul>
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+

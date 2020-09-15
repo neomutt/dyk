@@ -1,0 +1,22 @@
+{% assign size = include.lb_path | size %}
+{% assign short_page = page.url | slice: 0,size %}
+{% if children == true %}
+<li class="children">
+{% else %}
+<li>
+{% endif %}
+{% if include.lb_desc %}
+<a href="{{ include.lb_path }}" title="{{ include.lb_desc }}">
+{% else %}
+<a href="{{ include.lb_path }}">
+{% endif %}
+{% if include.lb_path == short_page %}
+<span class="current">
+{% else %}
+<span>
+{% endif %}
+{{ include.lb_title }}</span></a>
+{% if (include.lb_status == "devel") or (include.lb_status == "disabled") %}
+<span class="devel">&#x26A0;</span>
+{% endif %}
+</li>

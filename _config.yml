@@ -1,0 +1,48 @@
+# Where things are
+source:       .
+destination:  ./_site
+plugins_dir:  ./_plugins
+layouts_dir:  ./_layouts
+data_dir:     ./_data
+includes_dir: ./_includes
+
+title: NeoMutt
+name: NeoMutt
+email: rich@flatcap.org
+description: Teaching an Old Dog New Tricks
+
+url: https://neomutt.org
+
+baseurl: ''
+github_username:  neomutt
+github: 'neomutt/neomutt'
+
+highlighter: rouge
+markdown: kramdown
+
+timezone: UTC
+
+permalink: /:year/:month/:day/:title
+excerpt_separator: ""
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  input:          GFM
+
+exclude:
+  - README.md
+  - tags*
+  - Gemfile*
+
+collections:
+  dyk:
+    output: true
+
+plugins:
+  - jekyll-mentions
+  - jemoji
+

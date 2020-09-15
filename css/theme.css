@@ -1,0 +1,329 @@
+body {
+  padding-top: 76px;
+  padding-bottom: 8px;
+  background: #cec;
+  color: #000;
+}
+
+.copyright {
+  color: #ffffff;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer a {
+  color: #ee4444;
+}
+
+.sidebar h1 {
+  color: #ee4444;
+  font-size: 1.3em;
+}
+
+.sidebar a {
+  color: #428bca;
+}
+
+ul {
+  padding-left: 2em;
+}
+
+.sidebar li {
+  margin-top: .3em;
+  line-height: 1em;
+}
+
+.sidebar a:hover {
+  color: #3071a9;
+}
+
+.container-left {
+  margin: 0;
+}
+
+.well h1 {
+  color: #ee4444;
+  font-size: 1.3em;
+  margin: 0.5em;
+}
+
+.author {
+  color: #ee4444;
+}
+
+.author a {
+  color: #ee4444;
+}
+
+div.well {
+  padding: 0.5em;
+  border-radius: 10px;
+}
+
+div.col-md-9 {
+  background: #fff;
+  color: #000;
+  padding-bottom: 1em;
+}
+
+div.note {
+  background: #ff8;
+  color: #000;
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+
+.note h3 {
+  margin: 0;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+pre {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+pre.screen, pre.highlight {
+  background: #000;
+  color: #fff;
+}
+
+blockquote {
+  font-size: 100%;
+}
+
+span.indicator { background: #000060; color: #ffffff; }
+span.highlight { background: #404040; color: #ffffff; }
+.comment { color:#80ff80; }
+
+ul.nav {
+  font-size: 110%;
+  font-weight: bold;
+}
+
+a.navbar-brand {
+  color: #000 !important;
+  font-size: 160%;
+  font-weight: bold;
+  padding: 10px;
+  margin-left: 48px;
+  height: 42px;
+}
+
+li.active a {
+  color: #000 !important;
+  background: inherit !important;
+}
+
+.navbar {
+  background: #6c6;
+  min-height: 28px;
+}
+
+a.logo {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+li.active {
+  background: none;
+}
+
+li.active a, li.active2 a {
+  padding: 5px;
+  margin: 5px 10px 5px 0;
+}
+
+li.active2 a {
+  padding: 9px;
+  background: #6c6;
+}
+
+a.offset {
+  display: block;
+  position: relative;
+  top: -76px;
+  visibility: hidden;
+}
+
+.current {
+  background: #00a;
+  color: #fff !important;
+  padding: 1px 5px 1px 5px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+span.good {
+  font-weight: bold;
+  font-size: 130%;
+  color: green;
+}
+
+span.devel {
+  font-weight: bold;
+  font-size: 130%;
+  color: red;
+}
+
+h1 {
+  font-size: 200%;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+h2 {
+  border-top: 1px solid #666;
+  padding-top: 0.5em;
+  font-size: 140%;
+  font-weight: bold;
+}
+
+h3, h4 {
+  font-size: 120%;
+  font-weight: bold;
+  color: #333;
+  text-decoration: underline;
+}
+
+.subtitle {
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-style: italic;
+  font-size: 120%;
+  font-weight: bold;
+  color: #444;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+.readmore a {
+  font-style: italic;
+}
+
+dt {
+  font-size: 120%;
+  font-weight: normal;
+}
+
+dd {
+  margin-left: 2em;
+}
+
+table {
+  /* border: 2px solid #f4f4f4; */
+  border: 2px solid #666;
+}
+
+td, th {
+  padding: 0.1em 0.5em 0.1em 0.5em;
+  border: 1px solid #666;
+}
+
+table.lang, table.lang th, table.lang td {
+  border: none;
+}
+
+table.lang div {
+  float: left;
+  padding-left: 0.5em;
+  border: 1px solid black;
+}
+
+table.lang img {
+  border: 1px solid black;
+  margin-right: 0.5em;
+}
+
+.line-numbers {
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+  background: #fff;
+  border: none;
+}
+
+.line-numbers a {
+  color: #bbb !important;
+}
+
+.quiet, .quiet td {
+  border: none;
+  padding: 0 2em 0 0;
+  margin: 0;
+}
+
+li p {
+  margin: 0;
+}
+
+li.done {
+  color: red;
+}
+
+li.children {
+  list-style-image: url('/images/plus.png');
+  margin-left: 2px;
+}
+
+tr:nth-child(odd) {
+}
+
+tr:nth-child(even), th {
+  background: #f4f4f4;
+}
+
+a:link, a:visited {
+  color: #00a;
+}
+
+a.devel, span.warning, span.notes, span.wip {
+  padding: 0;
+  margin: 1em 0 1em 0;
+  border-radius: 10px;
+  display: block;
+  font-weight: bold;
+  font-size: 120%;
+  text-align: center;
+  border: 2px solid black;
+}
+
+a.devel, span.wip {
+  background: yellow;
+  color: black;
+}
+
+span.warning, span.notes {
+  background: red;
+  color: white;
+}
+
+div.post_author {
+  padding: 1em;
+  border-radius: 10px;
+  font-weight: bold;
+  background: #ccc;
+}
+
+div.article {
+  padding-top: 1em;
+}
+
+span.donate {
+  border: 2px solid #000;
+  background: white;
+  padding: 0 0.5em 0 0.5em;
+  border-radius: 10px;
+}
+
