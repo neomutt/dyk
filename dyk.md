@@ -2,12 +2,11 @@
 layout: concertina
 title: Did You Know?
 ---
-
 # {{ page.title }}
-
+Here you will find curated collection of handy and useful tips to help increase your productivity and efficiency with NeoMutt.
 ## Tips
 
-Introduction...
+
 
 {% assign sorted = site.dyk | sort: 'url' | reverse %}
 
