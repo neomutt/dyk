@@ -1,5 +1,4 @@
 ---
-layout: concertina
 title: Did You Know?
 ---
 # {{ page.title }}

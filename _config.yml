@@ -42,6 +42,13 @@ collections:
   dyk:
     output: true
 
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
 plugins:
   - jekyll-mentions
   - jemoji
